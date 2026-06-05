@@ -39,57 +39,22 @@ export default function HomePage({ lang }: { lang: Lang }) {
     </head>
     <main className="home-landing">
       <div className="home-float home-float--figma" aria-hidden title="Figma">
-        <svg viewBox="0 0 100 100" aria-hidden>
-          <defs>
-            <radialGradient id="figBg" cx="50%" cy="50%" r="60%">
-              <stop offset="0%" stopColor="#2a2a2a" />
-              <stop offset="100%" stopColor="#000" />
-            </radialGradient>
-            <filter id="figGlow" x="-20%" y="-20%" width="140%" height="140%">
-              <feGaussianBlur stdDeviation="2" />
-            </filter>
-          </defs>
-          <rect width="100" height="100" rx="22" fill="url(#figBg)" />
-          <g filter="url(#figGlow)" opacity="0.5">
-            <rect x="33" y="18" width="34" height="18" rx="9" fill="#ff4d4d" />
-            <rect x="50" y="18" width="17" height="18" rx="9" fill="#ff7a2a" />
-            <circle cx="41" cy="50" r="9" fill="#a259ff" />
-            <circle cx="58" cy="50" r="9" fill="#1abcfe" />
-            <circle cx="41" cy="67" r="9" fill="#0acf83" />
-          </g>
-          <rect x="33" y="18" width="34" height="18" rx="9" fill="#ff4d4d" />
-          <rect x="50" y="18" width="17" height="18" rx="9" fill="#ff7a2a" />
-          <circle cx="41" cy="50" r="9" fill="#a259ff" />
-          <circle cx="58" cy="50" r="9" fill="#1abcfe" />
-          <circle cx="41" cy="67" r="9" fill="#0acf83" />
-        </svg>
+        <img src="/icons/figma.png" alt="" />
       </div>
       <div className="home-float home-float--claude" aria-hidden title="Claude">
-        <img src="/icons/claude-new.svg" alt="" />
+        <img src="/icons/claude-tile.png" alt="" />
       </div>
       <div className="home-float home-float--chatgpt" aria-hidden title="ChatGPT">
-        <img src="/icons/chatgpt.svg" alt="" />
+        <img src="/icons/chatgpt.png" alt="" />
       </div>
       <div className="home-float home-float--gemini" aria-hidden title="Gemini">
-        <img src="/icons/gemini.svg" alt="" />
+        <img src="/icons/gemini.png" alt="" />
       </div>
       <div className="home-float home-float--vercel" aria-hidden title="Vercel">
-        <img src="/icons/vercel.svg" alt="" />
+        <img src="/icons/vercel-tile.png" alt="" />
       </div>
       <div className="home-float home-float--n8n" aria-hidden title="n8n">
-        <svg viewBox="0 0 100 100" aria-hidden>
-          <g fill="none" stroke="#fff" strokeWidth="7" strokeLinecap="round">
-            <path d="M26 50 H44" />
-            <path d="M56 50 C 62 50, 62 38, 68 38 H78" />
-            <path d="M56 50 C 62 50, 62 62, 68 62 H78" />
-          </g>
-          <g fill="#ea4b71" stroke="#fff" strokeWidth="7">
-            <circle cx="26" cy="50" r="8" />
-            <circle cx="50" cy="50" r="8" />
-            <circle cx="82" cy="38" r="8" />
-            <circle cx="82" cy="62" r="8" />
-          </g>
-        </svg>
+        <img src="/icons/n8n.png" alt="" />
       </div>
 
       <div className="home-lang-switch" role="tablist" aria-label="Language switch">
